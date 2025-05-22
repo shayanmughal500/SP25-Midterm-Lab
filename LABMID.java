@@ -67,17 +67,17 @@ public class LABMID{
     public static void main(String[] args) {
        
         Auction auction = new Auction("Antique Vase");
-        User user1 = new User("Alice");
-        User user2 = new User("Bob");
+        User user1 = new User("shayan");
+        User user2 = new User("khan");
 
         
         auction.registerObserver(user1);
         auction.registerObserver(user2);
 
         
-        auction.placeBid(100.0, "Alice");
-        auction.placeBid(150.0, "Bob");
-        auction.placeBid(120.0, "Alice");
+        auction.placeBid(100.0, "shayan");
+        auction.placeBid(150.0, "khan");
+        auction.placeBid(120.0, "shayan");
     }
 }
 
